@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hiyamee</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="./js/jquery.min.js"></script>
+</head>  
+<body>
+	<header id="header">
+		<nav class="navbar ozowkr navbar-expand-lg home">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt=""/>
+					</a>
+					<!-- Toggler/collapsibe Button -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<div class="login-btn ml-auto">
+						<p class="mb-0">Don’t Have a Account? <a href="#">Sign Up Here</a></p>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Banner -->
+		<section class="banner-page login">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6 col-md-6 col-12">
+						<div class="img-section">
+							<img src="images/banner.png" class="img-fluid">
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+							  <a class="nav-link active" data-toggle="tab" href="#home">Sign In</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" data-toggle="tab" href="#menu1">Sign Up</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="home" class="tab-pane active"><br>
+								<div class="side-form pb-3">
+									<div class="welcome">
+										<h2>Sign In</h2>
+									</div>
+									<form class="form-step">
+										<div class="form-group">
+											<label for="email">Your Email</label>
+											<input type="email" class="form-control" placeholder="Your Email" id="email">
+										</div>
+										<div class="form-group">
+											<label for="">Password</label>
+											<input type="password" class="form-control" placeholder="Your Email" id="email">
+											<span class="eye"><img src="images/eye.png"></span>
+										</div>
+										<div class="d-flex justify-content-between align-items-center mt-4 mb-5">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+												<label class="custom-control-label" for="customCheck">Remember me</label>
+											</div>
+											<a href="#" class="forgot">Forgot Password?</a>
+										</div>
+										<button type="submit" class="btn btn-warning btn-block">Sign In</button>	
+									</form>
+								</div>
+							</div>	
+							<div id="menu1" class="tab-pane"><br>
+								<div class="side-form">
+									<div class="welcome">
+										<h2>Sign Up</h2>
+									</div>
+									<form class="form-step">
+										<div class="form-group">
+											<label for="">Your Email</label>
+											<input type="type" class="form-control" placeholder="Your Email" id="email">
+										</div>
+										<div class="form-group">
+											<label for="email">Your Email</label>
+											<input type="email" class="form-control" placeholder="Your Email" id="email">
+										</div>
+										<div class="form-group">
+											<label for="">Password</label>
+											<input type="password" class="form-control" placeholder="Your Email" id="email">
+											<span class="eye"><img src="images/eye.png"></span>
+										</div>
+										<div class="d-flex justify-content-between align-items-center mt-4 mb-5">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+												<label class="custom-control-label" for="customCheck">Remember me</label>
+											</div>
+											<a href="#" class="forgot">Forgot Password?</a>
+										</div>
+										<button type="submit" class="btn btn-warning btn-block">Sign In</button>	
+									</form>
+								</div>
+							</div>	
+						</div>		
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- Banner End -->
+	
+	
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<!-- Plugins -->
+	<script src="./js/custom.js"></script>	
+	
+</body>		
+</html>
