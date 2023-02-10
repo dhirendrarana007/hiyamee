@@ -86,7 +86,10 @@ button:focus {
 	padding: 20px 10px;
 	box-shadow: 0px 3.68704px 9.2176px rgba(0, 0, 0, 0.25);
 }
-
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
 
 
 /*-------- 1.2 Structure --------*/
@@ -293,7 +296,11 @@ a.inverstuoti:hover {
     transform: rotate(225deg);
     background-color: #595959;
 }
-
+.form-control {
+  height: 55px;
+  border-radius: 4px;
+  border-color: #cecece;
+}
 @media (min-width: 1500px) {
 	.navbar.fixed-top .navbar-brand img {
 		max-height: 130px;
@@ -434,10 +441,328 @@ a.inverstuoti:hover {
 	box-shadow: 0px 3.21555px 12.8622px rgba(0, 0, 0, 0.15);
 	border-radius: 17px;
 }
-
-
-
-
+.prototype.request-hiring {
+	padding: 3rem;
+}
+.request-form label {
+	font-weight: 600;
+	font-size: 15px;
+	color: #202937;
+}
+.img-page {
+	margin-bottom: 20px;
+}
+.img-page img {
+	width: 100%;
+}
+.btn.btn-add {
+	background: rgba(196, 196, 196, 0.3);
+	border-radius: 7.19307px;
+}
+.request h4 {
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #263238;
+	margin-bottom: 22px;
+}
+.play-icon {
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+}
+.embed-responsive {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.btn-bottom ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 0;
+}
+.btn-bottom ul li {
+	display: inline-block;
+	width: 50%;
+	font-weight: 600;
+}
+.btn-yellow {
+	background: #FFCA2C;
+	padding: 12px;
+	text-decoration: underline;
+}
+.btn-black {
+	background: #222C2D;
+	padding: 12px;
+	text-decoration: underline;
+}
+.btn-black a{
+	color:#fff;
+}
+.text_light {
+	color: #b9bdbf;
+}
+.welcome.job-posting {
+	padding: 3rem;
+}
+.reset_nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.reset_nav li {
+	display: inline-block;
+	padding: 0 25px;
+}
+.delete {
+	background: #ffca2c;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 20px 20px 0 0;
+}
+.job-posting {
+	padding: 3rem;
+}
+.delete h2 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #263238;
+}
+.reset_nav li a {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #263238;
+}
+.job-posting .collapse {
+	border: 2px solid #ffca2c;
+	border-radius: 0 0 20px 20px;
+	padding: 1rem 3rem;
+}
+.form-inline label {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #202937;
+}
+.request-form .custom-select {
+	height: 55px;
+	font-size: 14px;
+	color: #9b9b9b;
+	font-weight: 500;
+	width: 100%;
+}
+.request-form .form-inline .form-control {
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+.request-form .form-inline {
+	flex-flow: unset;
+}
+.add_new a {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	text-decoration-line: underline;
+	margin-top: ;
+}
+.request-form .custom-select:focus {
+	border-color: #ced4da;
+	outline: 0;
+	box-shadow: none;
+}
+.rount-text h3 {
+	font-weight: 600;
+	font-size: 23.1255px;
+	line-height: 22px;
+	text-align: right;
+	color: #FFCA2C;
+	margin: 0;
+}
+.rount-text small {
+	font-weight: 600;
+	font-size: 11.0859px;
+	line-height: 5px;
+	text-align: right;
+	color: #FFCA2C;
+}
+.rount-text {
+	text-align: right;
+}
+.round label {
+	font-weight: 600;
+	font-size: 11.0859px;
+	line-height: 17px;
+	color: #202937;
+	margin: 0;
+}
+.round {
+	box-shadow: 0px 2.07484px 13.9415px rgba(0, 0, 0, 0.22);
+	border-radius: 9.33678px;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+.final-step .form-inline {
+	flex-flow: unset;
+}
+.final-step p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(32, 41, 55, 0.5);
+	margin-left: 15px;
+}
+.final-step {
+	height: 600px;
+}
+.final-step .custom-file {
+	width: unset;
+	height: 55px;
+	margin-bottom: 0;
+}
+.final-step .form-inline label {
+	height: 55px;
+}
+.final-step .custom-file-label::after {
+	height: 53px;
+	line-height: 40px;
+}
+.final-step .custom-file-input:focus ~ .custom-file-label {
+	border-color: #cecece;
+	box-shadow: none;
+}
+.final-step .custom-file-input:lang(en) ~ .custom-file-label::after {
+	content: "Upload";
+	color: #ffca2c;
+	background: transparent;
+	border: 0;
+	text-decoration: underline;
+}
+.side-form h4 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	color: #222C2D;
+	margin-bottom: 8px;
+}
+.hiring {
+	padding: 2.5rem 2rem;
+}
+.side-form.hiring h5 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFCA2C;
+}
+.side-form.hiring p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #202937;
+}
+.hiring-event h4 {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 33px;
+	text-align: center;
+	color: #222C2D;
+}
+.img-hiring img {
+	overflow: hidden;
+}
+.testimonial-item-wrapper h4 {
+	font-weight: 600;
+	font-size: 15.4335px;
+	line-height: 23px;
+	color: #222C2D;
+	text-align:left;
+	margin:0;
+}
+.testimonial-item-wrapper p {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgba(34, 44, 45, 0.6);
+	margin:0;
+}
+.yellow-line {
+	border-color: #ffca2c;
+	margin: 14px 0;
+}
+.testimonial-item-wrapper h6 {
+	font-weight: 400;
+	font-size: 10.3172px;
+	line-height: 15px;
+	color: #626262;
+}
+.testimonial-items {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 9.8233px 0.858477px rgba(0, 0, 0, 0.15);
+	border-radius: 15.8684px;
+	padding: 10px;
+	margin: 10px;
+}
+.skill-rating p {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 16px;
+	text-align: center;
+	color: #222C2D;
+}
+.yellow-text {
+	font-weight: 600;
+	font-size: 8.97872px;
+	line-height: 13px;
+	color: #FFCA2C;
+	margin:0 5px;
+}
+.skill-rating img {
+	background: ;
+	width: 10px !important;
+}
+.skill-rating h6 {
+	font-weight: 400;
+	font-size: 8.97872px;
+	line-height: 13px;
+	color: #222C2D;
+	display: flex;
+	justify-content: center;
+	margin: 4px;
+}
+.testimonial-slider .owl-nav {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-85%);
+	width: 100%;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.testimonial-slider .owl-nav span {
+	font-size: 40px;
+	width: 40px;
+	background: #000;
+	display: inline-block;
+	height: 40px;
+	border-radius: 50px;
+	line-height: 35px;
+	color: #fff;
+	box-shadow: 0 0 10px #00000038;
+}
 
 
 
