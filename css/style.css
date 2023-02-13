@@ -763,8 +763,16 @@ a.inverstuoti:hover {
 	color: #fff;
 	box-shadow: 0 0 10px #00000038;
 }
-
-
+.prototype.typeproto {
+	padding: 6rem;
+}
+.typeproto .success h2 {
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 60px;
+	color: #00B06A;
+	text-align: center;
+}
 
 
 
