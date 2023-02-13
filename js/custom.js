@@ -40,6 +40,11 @@ $('.testimonial-slider').owlCarousel({
                         nav: false
                     },
                     1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    },
+					1200: {
                         items: 3,
                         nav: true,
                         loop: true

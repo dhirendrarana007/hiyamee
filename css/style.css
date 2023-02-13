@@ -312,7 +312,8 @@ a.inverstuoti:hover {
 /* 3. Index */
 /*============================================================================================*/
 .banner-page {
-	padding: 7rem 0;
+	padding: 5rem 0;
+	margin-bottom: 6rem;
 }
 .welcome h2 {
 	text-align: center;
@@ -773,12 +774,70 @@ a.inverstuoti:hover {
 	color: #00B06A;
 	text-align: center;
 }
+.btn-bottom {
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.login .tab-content {
+	height: 921px;
+}
+.request-form .form-control {
+	font-size: 13px;
+}
+.success {
+	padding: 0 1rem;
+}
+.logo-sidebar {
+	text-align: center;
+	padding: 2rem;
+}
+.side-bar-nav {
+	list-style: none;
+	padding: 0;
+	margin: 1rem 3rem;
+}
+.side-bar-nav li {
+	padding: 1.7rem 0;
+}
+.side-bar-nav li a img {
+	margin-right: 2rem;
+	width: 28px;
+	height: 25px;
+	object-fit: contain;
+}
+.side-bar-nav li a {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #000000;
+	display: block;
+	padding: 0 15px;
+}
+.sidebar {
+	background: #FFFFFF;
+	box-shadow: 13px 0px 22px rgba(111, 109, 217, 0.15);
+	height: 100vh;
+}
+.side-bar-nav li a.active {
+	background: #222C2D;
+	border-radius: 7px;
+	padding: 15px;
+	color: #fff !important;
+	line-height: 26px !important;
+}
+
+
 
 
 
 /*============================================================================================*/
 /* Responsive */
 /*============================================================================================*/
+
+
 @media(max-width:1500px){
 	.step-1 {
 		margin: 55px 28px;
@@ -790,7 +849,135 @@ a.inverstuoti:hover {
 	.side-form {
 		margin-top: 2rem;
 	}
+	.prototype.typeproto {
+		padding: 2rem;
+	}
+	.request-form .form-control {
+		font-size: 13px;
+	}
+	.success h2 {
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 62px;
+	}
+}
+@media(max-width:1350px){
+	#header .navbar .navbar-brand img {
+		width: 150px;
+		margin-left: 5rem;
+	}
+	.prototype.typeproto {
+		padding: 2rem;
+	}
+	.typeproto .success h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.form-step {
+		margin: 1rem 1rem;
+	}
+	.request-form .form-control {
+		font-size: 13px;
+	}
+	.request-form label {
+		font-size: 13px;
+	}
+	.success h2 {
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 52px;
+	}
 	
+	
+	
+}
+@media(max-width:1200px){
+	.prototype.request-hiring {
+		padding: 1rem;
+	}
+}
+
+@media(max-width:1024px){
+	.job-posting {
+		padding: 2rem;
+	}
+	.job-posting .collapse {
+		padding: 1rem 2rem;
+	}
+	.prototype.typeproto {
+		padding: 2rem;
+	}
+	.typeproto .success h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 40px;
+	}	
+	.request-form .form-control {
+		font-size: 13px;
+	}
+	.request-form label {
+		font-size: 13px;
+	}
+	.prototype.request-hiring {
+		padding: 1rem;
+	}
+	
+}
+@media(max-width:992px){
+	.navbar-toggler {
+		position: absolute;
+		right: 0;
+		top: 13px;
+	}
+	#header .navbar .navbar-brand img {
+		width: 150px;
+		margin-left: 2rem;
+	}
+	.rount-text h3 {
+		text-align: left;
+	}
+	.rount-text small {
+		text-align: left;
+	}
+	.rount-text {
+		text-align: left;
+		margin-bottom: 1rem;
+	}
+	.job-posting {
+		padding: 1rem;
+	}
+	.job-posting .collapse {
+		padding: 1rem 1rem;
+	}
+	.side-form {
+		margin-top: 1rem;
+	}
+	.prototype.typeproto {
+		padding: 2rem;
+	}
+	.typeproto .success h2 {
+		font-size: 28px;
+		line-height: 34px;
+	}
+	.img-section {
+		margin-bottom: 4rem;
+	}
+	.prototype.request-hiring {
+		padding: 1rem;
+	}
+	.request-form .form-control {
+		font-size: 13px;
+	}
+	.request-form label {
+		font-size: 13px;
+	}
+	.success h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	
+	
+
 }
 @media(max-width:768px){
 	#header .navbar .navbar-brand img {
@@ -802,7 +989,113 @@ a.inverstuoti:hover {
 		right: 0;
 		top: 13px;
 	}
-		
+	.request h4 {
+		font-weight: 600;
+		font-size: 18px;
+		text-transform: capitalize;
+		color: #263238;
+		margin-bottom: 18px;
+	}	
+	.delete h2 {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.reset_nav li {
+		padding: 0 8px;
+	}
+	.reset_nav li a {
+		font-size: 11px;
+	}
+	.delete h2 {
+		font-size: 13px;
+	}
+	.form-inline label {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.form-inline label {
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+	}
+	.add_new a {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 21px;
+		text-decoration-line: underline;
+	}
+	.banner-page {
+		padding: 2rem 0;
+	}
+	.typeproto .success h2 {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.prototype.typeproto {
+		padding: 1rem;
+	}
+	.final-step .form-inline {
+		flex-flow: wrap;
+	}
+	.prototype.request-hiring {
+		padding: 2rem;
+	}
+	.final-step p {
+		font-size: 12px;
+		margin-left: 0;
+	}
+	.side-form {
+		margin-top: 3rem;
+		overflow-x: hidden;
+	}
+	.img-section {
+		margin-bottom: 3rem;
+	}
+	.login .side-form {
+		margin-top: 1rem;
+		overflow-x: hidden;
+	}
+	.form-step {
+		margin: 2rem 1rem;
+	}
+	.welcome h2 {
+		font-size: 24px;
+	}
+	.forgot {
+		font-size: 14px;
+	}
+	.form-step .custom-control-label {
+		font-size: 14px !important;
+	}
+	.eye {
+		position: absolute;
+		right: 10px;
+		top: 32px;
+	}
+	.login .tab-content {
+		height: auto;
+	}
+	.request .prototype.request-hiring {
+		padding: 1rem;
+	}
+	.request-form label {
+		font-size: 12px;
+	}
+	.request-form {
+		margin-top: 2rem;
+	}
+	.success h2 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.success p {
+		font-size: 14px;
+	}
+	.success {
+		padding: 0 1rem;
+	}
+	
 	
 	
 }
