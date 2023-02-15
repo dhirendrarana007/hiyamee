@@ -779,6 +779,7 @@ a.inverstuoti:hover {
 	right: 0;
 	left: 0;
 	bottom: 0;
+	z-index: 99;
 }
 .login .tab-content {
 	height: 921px;
@@ -836,6 +837,7 @@ a.inverstuoti:hover {
 }
 .dashboard {
 	overflow-x: hidden;
+	background: #f8f8f8;
 }
 .search-page {
 	position: absolute;
@@ -981,7 +983,7 @@ a.inverstuoti:hover {
 	height: 140px;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 .key img {
 	width: 50px !important;
@@ -992,6 +994,7 @@ a.inverstuoti:hover {
 	margin-top: 12px;
 	margin-bottom: 0;
 	color: #444;
+	line-height: 1;
 }
 .dolor small {
 	font-weight: 500;
@@ -1094,6 +1097,194 @@ a.inverstuoti:hover {
 	text-align: center;
 	padding: 1rem 0 2rem;
 }
+.recommend-video .form-control {
+	height: 42px;
+	border-radius: 4px;
+	border-color: #cecece;
+}
+.library {
+	margin-right: 6rem;
+	margin-top: 4rem;
+}
+.library .custom-select {
+	font-size: 14px;
+	color: #777;
+}
+.custom-select:focus {
+	border-color: #cecece;
+	outline: 0;
+	box-shadow: none;
+}
+.list_img img {
+	padding: 6px;
+	border-radius: 14px;
+}
+.my-list-box {
+	background: #FFFFFF;
+	box-shadow: 0px 3.30423px 13.2169px rgba(0, 0, 0, 0.15);
+	border-radius: 14.8691px;
+	padding: 7px;
+}
+.list_img img {
+	padding: 6px;
+	border-radius: 14px;
+	height: 170px;
+	object-fit: cover;
+}
+.side-img img {
+	height: 85px;
+}
+.tags h4 {
+	font-weight: 600;
+	font-size: 16.4413px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #2f2f2f;
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+.tags {
+	margin-bottom: 30px;
+}
+.remaining-box p {
+	margin: 0;
+	font-weight: 400;
+	font-size: 15.184px;
+	line-height: 100%;
+	color: #222C2D;
+}
+.remaining-box h4 {
+	font-weight: 600;
+	font-size: 39.0229px;
+	line-height: 100%;
+	color: #222C2D;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.remaining-box {
+	display: inline-block;
+	padding: 30px;
+	border: 1px solid #eee;
+	background: #fff;
+	border-radius: 10px;
+}
+.remaining a {
+	margin: 0;
+	color: #000;
+	font-size: 12px;
+}
+.remaining {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3rem;
+}
+.profile-left {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 8.87114px 0.775266px rgba(0, 0, 0, 0.15);
+	border-radius: 14.3303px;
+	padding: 12px 2rem;
+	margin-top: 2rem;
+}
+.profile-left .form-group {
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+.profile-left .form-control {
+	height: 45px;
+	border-radius: 4px;
+	border-color: #cecece;
+}
+.profile-left label {
+	font-weight: 400;
+	font-size: 13.4451px;
+	line-height: 20px;
+	color: #202937;
+}
+.verify a {
+	font-weight: 400;
+	font-size: 13.4451px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #FFCA2C;
+	position: absolute;
+	bottom: 12px;
+	right: 20px;
+}
+.profile-right {
+	padding: 2.6rem 2rem;
+	text-align: center;
+}
+.profile-left.profile-right p {
+	font-weight: 600;
+	font-size: 13.4451px;
+	line-height: 20px;
+	color: #202937;
+	margin-bottom: 12px !important;
+}
+.company-logo h6 {
+	font-weight: 600;
+	font-size: 13.4451px;
+	line-height: 20px;
+	color: #202937;
+	margin-top: 2rem;
+}
+.profile-left.profile-right small {
+	font-size: 11px;
+	display: block;
+}
+.bottom-menu ul {
+	padding: 0;
+	list-style: none;
+}
+.bottom-menu ul li {
+	display: inline-block;
+	padding-left: 2rem;
+	margin-top: 15px;
+}
+.bottom-menu ul li a {
+	font-weight: 500;
+	font-size: 13.4451px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #263238;
+}
+.bottom-menu {
+	text-align: right;
+}
+.navbar{
+	padding:0;
+}
+.sponsored-hiring p {
+	margin: 0;
+	font-weight: 600;
+	font-size: 20.9442px;
+	line-height: 31px;
+	text-align: center;
+	color: #222C2D;
+}
+.sponsored-hiring {
+	background: #ffca2c;
+	padding: 10px;
+	border-radius: 15px 15px 0 0;
+}
+.sponsored {
+	margin-top: 3rem;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 9.54737px 0.834363px rgba(0, 0, 0, 0.15);
+	border-radius: 15.4227px;
+}
+.max {
+	padding: 2rem 3rem;
+}
+.max.event-table {
+	box-shadow: none;
+	margin: 0;
+}
+.max .table td {
+	font-weight: 600;
+}
+
 
 
 
@@ -1380,7 +1571,8 @@ a.inverstuoti:hover {
 @media(max-width:768px){
 	#header .navbar .navbar-brand img {
 		width: 130px;
-		margin-left: 0;
+		margin-left: 15px;
+		margin-top: 5px;
 	}
 	#header .navbar-toggler {
 		position: absolute;
@@ -1595,7 +1787,10 @@ a.inverstuoti:hover {
 	.table_responsive {
 		overflow: scroll;
 	}
-	
+	.library {
+		margin-right: 0rem;
+		margin-top: 2rem;
+	}
 	
 	
 	
