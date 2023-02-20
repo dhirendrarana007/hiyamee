@@ -26,7 +26,8 @@ $(document).ready(function (){
 });
 
 $('.testimonial-slider').owlCarousel({
-	loop: true, 
+	loop: false,
+	rewind: true,
 	margin: 10,
 	autoplay: true,
 	responsiveClass: true,
@@ -34,7 +35,7 @@ $('.testimonial-slider').owlCarousel({
 		0: {
 			items: 1,
 			nav: true
-		}, 
+		},
 		600: {
 			items: 2,
 			nav: false
@@ -42,12 +43,14 @@ $('.testimonial-slider').owlCarousel({
 		1000: {
 			items: 2,
 			nav: true,
-			loop: true
+			loop: false,
+			rewind: true
 		},
 		1200: {
 			items: 3,
 			nav: true,
-			loop: true
+			loop: false,
+			rewind: true
 		}
 	}
 })

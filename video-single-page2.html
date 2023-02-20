@@ -136,16 +136,49 @@
 						</div>
 						<div class="video-single-page library mb-5">
 							<div class="row">
-								<div class="col-xl-9 col-lg-8 col-md-9 col-12">
+								<div class="col-xl-9 col-lg-9 col-md-9 col-12">
 									<div class="video_single">
 										<div class="similique_part">
-											<img src="images/Image-place-holder.png" class="img-fluid">
-											<div class="unlock">
-												<p>Unlock Video to View<br>Requires</p>
-												<a href="video-single-page2.html">10 Credits</a>
-											</div>
-											<div class="btn_part recommend-video">
-												<a href="video-single-page2.html" class="btn">Unlock Video Now</a>
+											<video src="video/video.mp4" poster="images/Image-place-holder.png" id="blurred"></video>
+											<div class="container show-controls">
+												<div class="wrapper">
+													<div class="video-timeline">
+														<div class="progress-area">
+															<span>00:00</span>
+															<div class="progress-bar"></div>
+														</div>
+													</div>
+													<ul class="video-controls">
+														<li class="options left">
+															<button class="volume"><i class="fa-solid fa-volume-high"></i></button>
+															<div class="video-timer ml-0 mr-3">
+																<p class="current-time mb-0">00:00</p>
+																<p class="separator"> / </p>
+																<p class="video-duration mb-0">00:00</p>
+															</div>
+															<input type="range" min="0" max="1" step="any">
+														</li>
+														<li class="options center">
+															<button class="skip-backward"><i class="fas fa-backward"></i></button>
+															<button class="play-pause"><i class="fas fa-play"></i></button>
+															<button class="skip-forward"><i class="fas fa-forward"></i></button>
+														</li>
+														<li class="options right">
+															<div class="playback-content">
+																<button class="playback-speed"><span class="material-symbols-rounded">...</span></button>
+																<ul class="speed-options">
+																	<li data-speed="2">2x</li>
+																	<li data-speed="1.5">1.5x</li>
+																	<li data-speed="1" class="active">Normal</li>
+																	<li data-speed="0.75">0.75x</li>
+																	<li data-speed="0.5">0.5x</li>
+																</ul>
+															</div>
+															<button class="fullscreen"><i class="fa-solid fa-expand d-none"></i></button>
+														</li>
+													</ul>
+												</div>
+												<video src="video/video.mp4" poster="images/Image-place-holder.png"></video>
 											</div>
 										</div>
 										<div class="row mt-4">
@@ -163,21 +196,23 @@
 												</div>
 											</div>
 										</div>
-										<div class="reject py-3">
+										<div class="reject py-3 mt-2">
 											<div class="row align-items-center">
-												<div class="col-lg-4 col-md-6 col-12">
+												<div class="col-lg-4 col-md-5 col-12">
 													<div class="dolorem">
 														<div class="d-flex align-items-center mb-3">
 															<img src="images/Imageplaceholder.svg" class="img-fluid">
 															<h6 class="mb-0 ml-3">Jessica Blossom</h6>
 														</div>
-														<a href="#" class="btn btn-secondary">Download Resume</a>
+														<div class="recommend-video">
+															<a href="#" class="btn">Download Resume</a>
+														</div>
 													</div>
 												</div>
-												<div class="col-lg-8 col-md-6 col-12">
+												<div class="col-lg-8 col-md-7 col-12">
 													<div class="dolorem d-flex align-items-center">
-														<a href="#" class="btn btn-secondary d-flex justify-content-around align-items-center text-white w-50 mr-3"><img src="images/like-button-black-icon 1.svg">&#10240;&#10240;&#10240;&#10240; Select</a>
-														<a href="#" class="btn btn-secondary d-flex justify-content-around align-items-center text-white w-50"><img src="images/like-button-black-icon 2.svg">&#10240;&#10240;&#10240;&#10240; Reject</a>
+														<a href="#" class="btn btn-success d-flex justify-content-around align-items-center text-white w-50 mr-3"><img src="images/like-button-black-icon 1.svg">&#10240;&#10240;&#10240;&#10240; Select</a>
+														<a href="#" class="btn btn-danger d-flex justify-content-around align-items-center text-white w-50"><img src="images/like-button-black-icon 2.svg">&#10240;&#10240;&#10240;&#10240; Reject</a>
 													</div>
 												</div>
 												<div class="col-12">
@@ -189,7 +224,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xl-3 col-lg-4 col-md-3 col-12">
+								<div class="col-xl-3 col-lg-3 col-md-3 col-12">
 									<div class="video-right-bar">
 										<small>Overall Rating</small>
 										<div class="rating-overall">
